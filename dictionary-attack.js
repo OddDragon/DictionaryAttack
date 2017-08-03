@@ -21,10 +21,10 @@ function checkPassword() {
     var res = patt.test(wordsFile);}
   if res = True{
     var x = document.getElementById("results");
-    results = "That's a word, and subsequently vulnerable to a dictionary attack. Try again."}
+    results = "That's a word, and subsequently vulnerable to a dictionary attack. Try again."};
       document.getElementById("results").innerHTML = results;
   else{
-    results = "That password is not vulnerable to a dictionary attack! Good job."}
+    results = "That password is not vulnerable to a dictionary attack! Good job."};
       document.getElementById("results").innerHTML = results;
 }
      
