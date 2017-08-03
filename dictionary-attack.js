@@ -16,9 +16,10 @@ window.onload = init;
 
 function checkPassword() {
   
-  while (x = True){
-    
-    
-    
-  }
+  while (res = False){
+    var patt = new RegExp(pw);
+    var res = patt.test(wordsFile);}
+  if res = True{
+    result = 
+  
 }
