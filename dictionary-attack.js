@@ -21,9 +21,9 @@ function checkPassword() {
     var patt = document.getElementById("pw").value; 
     var res = patt.test(wordsFile);}
   if res = True{
-    document.getElementById("results").innerHTML = "That's a word, and subsequently vulnerable to a dictionary attack. Try again.";
-  else{
-    
-      document.getElementById("results").innerHTML = "That password is not vulnerable to a dictionary attack! Good job.";
+    document.getElementById("results").innerHTML = "That's a word, and subsequently vulnerable to a dictionary attack. Try again.";}
+  
+   else{
+     document.getElementById("results").innerHTML = "That password is not vulnerable to a dictionary attack! Good job.";}
 }
      
