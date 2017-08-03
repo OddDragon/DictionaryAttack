@@ -24,3 +24,4 @@ function checkPassword() {
   else{
     results = "That password is not vulnerable to a dictionary attack! Good job."}
 }
+     
