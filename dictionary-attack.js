@@ -19,7 +19,7 @@ function checkPassword() {
   for(var i=0; i<wordsList.length; i++){
     //var patt = new RegExp(pw);
     var patt = document.getElementById("pw").value; 
-    var res = patt.test(wordsFile);}
+    var res = patt.test(wordsList);}
   if (res = True){
     document.getElementById("results").innerHTML = "That's a word, and subsequently vulnerable to a dictionary attack. Try again.";}
   
