@@ -17,14 +17,13 @@ window.onload = init;
 function checkPassword() {
   
   for(var i=0; i<354985; i++){
-    var patt = new RegExp(pw);
+    //var patt = new RegExp(pw);
+    var patt = document.getElementById("pw").value; 
     var res = patt.test(wordsFile);}
   if res = True{
-    var x = document.getElementById("results");
-    results = "That's a word, and subsequently vulnerable to a dictionary attack. Try again."};
-      document.getElementById("results").innerHTML = results;
+    document.getElementById("results").innerHTML = "That's a word, and subsequently vulnerable to a dictionary attack. Try again.";
   else{
-    results = "That password is not vulnerable to a dictionary attack! Good job."};
-      document.getElementById("results").innerHTML = results;
+    
+      document.getElementById("results").innerHTML = "That password is not vulnerable to a dictionary attack! Good job.";
 }
      
