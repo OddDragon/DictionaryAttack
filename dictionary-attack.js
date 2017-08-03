@@ -16,10 +16,11 @@ window.onload = init;
 
 function checkPassword() {
   
-  while (res = False){
+  for(var i=0; i<354985; i++){
     var patt = new RegExp(pw);
     var res = patt.test(wordsFile);}
   if res = True{
-    result = 
-  
+    results = "That's a word, and subsequently vulnerable to a dictionary attack. Try again."}
+  else{
+    results = "That password is not vulnerable to a dictionary attack! Good job."}
 }
